@@ -1,6 +1,7 @@
 # React + TypeScript + Tailwind + Vite
 
 Dado que estamos usando vite, el comando de ejecucion de react es npm run
+Instalan las dependencias con npm install
 
 forma de hacer los commits
 feat: Nueva funcionalidad
