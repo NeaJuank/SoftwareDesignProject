@@ -1,11 +1,10 @@
-// App.tsx
-import React from "react";
 import { Routes, Route } from "react-router-dom";
+import LandingPage from "./pages/landingPage";
 
 const App = () => {
   return (
     <Routes>
-      {/*<Route path="/" element={<AuthPage />} />  --- Ejemplo de uso de la ruta*/}
+      <Route path="/" element={<LandingPage />} />
     </Routes>
   );
 };
