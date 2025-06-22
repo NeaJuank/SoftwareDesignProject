@@ -1,5 +1,5 @@
 import { Star, ArrowRight, Shield, Award, Users } from "lucide-react";
-import HeroSectionImage from "../../assets/heroSectionImage.webp";
+import HeroSectionImage from "@assets/heroSectionImage.webp";
 
 const Hero = () => {
   return (

@@ -1,7 +1,12 @@
+//types
+import { features } from "@myTypes/pages/landingPage/aboutFeatures";
+//components
+import aboutImage from "@assets/about.jpeg";
+import SimpleCard from "../components/about/simpleCard";
+import MainTitle from "@components/mainTItle";
+import StatsSection from "../components/about/statsSection";
+//icons
 import { Star } from "lucide-react";
-import { features, stats } from "../../types/landingPage/aboutFeatures";
-import aboutImage from "../../assets/about.jpeg";
-import SimpleCard from "./components/simpleCard";
 
 const About = () => {
   return (
@@ -9,9 +14,7 @@ const About = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Quiénes <span className="text-emerald-600">Somos</span>
-          </h2>
+          <MainTitle title="¿Quiénes" titleWithColor="Somos?" />
         </div>
 
         {/* Main Content */}
@@ -79,26 +82,7 @@ const About = () => {
 
         {/* Stats Section */}
         <div className="bg-gradient-to-r from-slate-700 to-slate-800 rounded-3xl p-8 md:p-12">
-          <div className="text-center mb-12">
-            <h3 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              Números que Hablan por Nosotros
-            </h3>
-            <p className="text-xl text-slate-200">
-              La confianza de miles de clientes respalda nuestro compromiso con
-              la excelencia
-            </p>
-          </div>
-
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {stats.map((stat, index) => (
-              <div key={index} className="text-center">
-                <div className="text-4xl md:text-5xl font-bold text-emerald-400 mb-2">
-                  {stat.number}
-                </div>
-                <div className="text-slate-200 text-lg">{stat.label}</div>
-              </div>
-            ))}
-          </div>
+          <StatsSection />
         </div>
       </div>
     </section>

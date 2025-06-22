@@ -1,7 +1,9 @@
 import { useState } from "react";
-import { Car, Menu, X } from "lucide-react";
-import { authItems, navbarItems } from "../types/components/navbarItems";
 import { Link } from "react-router-dom";
+//icons
+import { Car, Menu, X } from "lucide-react";
+//types
+import { navbarItems, authItems } from "@myTypes/components/navbarItems";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

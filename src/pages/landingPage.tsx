@@ -1,6 +1,7 @@
-import Navbar from "../components/navbar";
-import About from "../features/landingPage/about";
-import Hero from "../features/landingPage/heroSection";
+import Navbar from "@components/navbar";
+import About from "@features/landingPage/sections/about";
+import Hero from "@features/landingPage/sections/heroSection";
+import WhyChooseUs from "@features/landingPage/sections/whyChooseUs";
 
 const LandingPage = () => {
   return (
@@ -10,6 +11,7 @@ const LandingPage = () => {
       </header>
       <Hero />
       <About />
+      <WhyChooseUs />
     </div>
   );
 };
