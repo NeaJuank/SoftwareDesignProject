@@ -1,4 +1,5 @@
 import { Star, ArrowRight, Shield, Award, Users } from "lucide-react";
+import HeroSectionImage from "@assets/heroSectionImage.webp";
 
 const Hero = () => {
   return (
@@ -9,7 +10,7 @@ const Hero = () => {
       {/* Background */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop"
+          src={HeroSectionImage}
           alt="Luxury Car Background"
           className="w-full h-full object-cover"
         />

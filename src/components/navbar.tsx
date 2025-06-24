@@ -1,13 +1,15 @@
 import { useState } from "react";
-import { Car, Menu, X } from "lucide-react";
-import { authItems, navbarItems } from "../types/components/navbarItems";
 import { Link } from "react-router-dom";
+//icons
+import { Car, Menu, X } from "lucide-react";
+//types
+import { navbarItems, authItems } from "@myTypes/components/navbarItems";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="absolute top-0 left-0 right-0 z-50 bg-white/10 backdrop-blur-md border-b border-white/20">
+    <header className="absolute top-0 left-0 right-0 z-50 border-b border-white/20 bg-gradient-to-r from-[#171c27] to-[#474b53]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
