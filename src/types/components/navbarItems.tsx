@@ -2,9 +2,10 @@ import { LogIn, User } from "lucide-react";
 
 export const navbarItems = [
   { link: "#home", label: "Inicio" },
-  { link: "#cars", label: "Autos" },
   { link: "#services", label: "Servicios" },
   { link: "#about", label: "Nosotros" },
+  {link: '#reviews', label: 'Reseñas'},
+  { link: "#cars", label: "Autos" },
   { link: "#contact", label: "Contacto" },
 ];
 
