@@ -5,6 +5,7 @@ import Hero from "@features/landingPage/sections/heroSection";
 import Reviews from "@features/landingPage/sections/review";
 import Services from "@features/landingPage/sections/services";
 import WhyChooseUs from "@features/landingPage/sections/whyChooseUs";
+import CarCard from '@features/landingPage/sections/cars'
 
 const LandingPage = () => {
   return (
@@ -17,6 +18,7 @@ const LandingPage = () => {
       <WhyChooseUs />
       <Services />
       <Reviews />
+      <CarCard />
       <Footer />
     </div>
   );
