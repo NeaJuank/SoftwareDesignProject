@@ -54,7 +54,7 @@ const Services = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Nuestros <span className="text-blue-600">Servicios</span>
+            Nuestros <span className="text-emerald-500">Servicios</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Ofrecemos una experiencia completa de renta de autos con servicios
@@ -69,7 +69,7 @@ const Services = () => {
               className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 group"
             >
               <div className="flex items-center mb-6">
-                <div className="bg-gradient-to-r from-blue-600 to-blue-700 group-hover:from-emerald-500 group-hover:to-emerald-600 p-3 rounded-xl transition-all duration-300">
+                <div className="bg-gradient-to-r from-emerald-500 to-blue-700 group-hover:from-emerald-500 group-hover:to-emerald-600 p-3 rounded-xl transition-all duration-300">
                   <service.icon className="h-6 w-6 text-white" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 ml-4">
@@ -85,7 +85,7 @@ const Services = () => {
                     key={featureIndex}
                     className="flex items-center text-gray-700"
                   >
-                    <div className="w-2 h-2 bg-blue-600 rounded-full mr-3"></div>
+                    <div className="w-2 h-2 bg-emerald-500 rounded-full mr-3"></div>
                     {feature}
                   </li>
                 ))}

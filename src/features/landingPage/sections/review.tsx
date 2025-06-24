@@ -6,7 +6,7 @@ const Reviews = () => {
     {
       id: 1,
       name: "María González",
-      location: "Ciudad de México",
+      location: "Ecuador",
       rating: 5,
       comment:
         "Excelente servicio, el auto estaba impecable y el proceso de renta fue muy sencillo. Definitivamente volvería a rentar con ellos.",
@@ -16,7 +16,7 @@ const Reviews = () => {
     {
       id: 2,
       name: "Carlos Rodríguez",
-      location: "Guadalajara",
+      location: "Colombia",
       rating: 5,
       comment:
         "La atención al cliente es excepcional. Me ayudaron con todas mis dudas y el auto superó mis expectativas. Muy recomendable.",
@@ -26,7 +26,7 @@ const Reviews = () => {
     {
       id: 3,
       name: "Ana Martínez",
-      location: "Monterrey",
+      location: "Panama",
       rating: 5,
       comment:
         "Perfecto para viajes familiares. El BMW X5 que rentamos fue ideal para nuestras vacaciones. Proceso rápido y confiable.",
@@ -41,7 +41,7 @@ const Reviews = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             Lo que Dicen Nuestros{" "}
-            <span className="text-blue-600">Clientes</span>
+            <span className="text-emerald-500">Clientes</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Miles de clientes satisfechos avalan la calidad de nuestros
@@ -56,7 +56,7 @@ const Reviews = () => {
               className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 relative"
             >
               <div className="absolute -top-4 left-8">
-                <div className="bg-blue-600 p-3 rounded-full">
+                <div className="bg-emerald-500 p-3 rounded-full">
                   <Quote className="h-6 w-6 text-white" />
                 </div>
               </div>
@@ -99,18 +99,18 @@ const Reviews = () => {
           <div className="bg-white rounded-2xl p-8 shadow-lg inline-block">
             <div className="flex items-center justify-center space-x-8">
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600">2,847</div>
+                <div className="text-3xl font-bold text-emerald-500">2,847</div>
                 <div className="text-gray-600">Reseñas</div>
               </div>
               <div className="text-center">
-                <div className="flex items-center justify-center text-3xl font-bold text-blue-600">
+                <div className="flex items-center justify-center text-3xl font-bold text-emerald-500">
                   4.9{" "}
                   <Star className="h-8 w-8 text-amber-400 fill-current ml-2" />
                 </div>
                 <div className="text-gray-600">Calificación</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600">98%</div>
+                <div className="text-3xl font-bold text-emerald-500">98%</div>
                 <div className="text-gray-600">Satisfacción</div>
               </div>
             </div>
