@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Eye, EyeOff, Mail, Lock, ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 function Login() {
   const [showPassword, setShowPassword] = useState(false);
@@ -172,9 +173,9 @@ function Login() {
           <div className="mt-8 text-center">
             <p className="text-sm text-gray-600">
               Don't have an account?{' '}
-              <a href="#" className="font-semibold text-emerald-500 hover:text-emerald-600 transition-colors duration-200">
+              <Link to ="/register" className="font-semibold text-emerald-500 hover:text-emerald-600 transition-colors duration-200">
                 Sign up for free
-              </a>
+              </Link>
             </p>
           </div>
         </div>
